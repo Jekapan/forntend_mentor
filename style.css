@@ -19,6 +19,7 @@
 
 body {
     min-height: 100vh;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +29,7 @@ body {
 }
 
 .container {
-    max-width: 60%;
+    max-width: 900px;
     background-color: var(--neutral-White);
     padding: 3rem 1rem;
     border-radius: 1.5rem 1.5rem 10rem 1.5rem;
@@ -105,6 +106,7 @@ form {
 p {
     font-size: 3.5rem;
     font-weight: bold;
+    line-height: 0.8;
 }
 
 p span {
@@ -120,8 +122,8 @@ small {
         padding: 3rem 2rem;
     }
     p {
-        font-size: 8rem;
-        line-height: 0.8;
+        font-size: 5rem;
+        
     }
 
    .submit_block button {
@@ -130,3 +132,11 @@ small {
     padding: 1.5rem;
    }
 }
+
+@media (min-width: 768px) {
+    p {font-size: 6rem;}
+    }
+
+@media (min-width: 1200px) {
+    p {font-size: 7rem;}
+    }
